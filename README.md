@@ -1,6 +1,5 @@
 <div align="center" id="top"> 
-  <img src="https://www.qwords.com/wp-content/themes/qwords/assets/images/icons/logo-qw-light.webp" alt="Qwords Laravel" />
-
+  
   &#xa0;
 
   <!-- <a href="https://qwordslaravel.netlify.app">Demo</a> -->
