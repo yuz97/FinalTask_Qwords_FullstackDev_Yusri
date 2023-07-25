@@ -9,9 +9,9 @@
 <h1 align="center">Qwords Laravel</h1>
 
 <p align="center">
-  <img alt="Github top language" src="https://img.shields.io/github/languages/top/{{yuz97}}/qwords-laravel?color=56BEB8">
+  <img alt="Github top language" src="https://img.shields.io/github/languages/top/yuz97/qwords-laravel?color=56BEB8">
 
-  <img alt="Github language count" src="https://img.shields.io/github/languages/count/{{yuz97}}/qwords-laravel?color=56BEB8">
+  <img alt="Github language count" src="https://img.shields.io/github/languages/count/yuz97/qwords-laravel?color=56BEB8">
 
   <img alt="Repository size" src="https://img.shields.io/github/repo-size/{{yuz97}}/qwords-laravel?color=56BEB8">
 
@@ -107,13 +107,13 @@ $ php artisan serve
 This project is under license from MIT. For more details, see the [LICENSE](LICENSE.md) file.
 
 
-Made with :heart: by <a href="https://github.com/{{yuz97}}" target="_blank">{{yuz}}</a>
+Made with :heart: by <a href="https://github.com/yuz97" target="_blank">yuz</a>
 
 &#xa0;
 
 ```
 
-✨ Terima kasih banyak kepada Bapak / Ibu yang telah memberikan kesempatan magang di PT.Qwords Company International ✨
+✨ Terima kasih banyak kepada PT.Qwords Company International  yang telah memberikan kesempatan magang kepada saya ✨
 
 
 <a href="#top">Back to top</a>
