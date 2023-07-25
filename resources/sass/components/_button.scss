@@ -1,0 +1,50 @@
+@use "../custom" as *;
+
+.btn-orange {
+  background-color: $orange;
+  color: white;
+  border-radius: 0;
+  font-family: "poppins", sans-serif;
+  font-size: medium;
+  font-weight: 100;
+  &:hover {
+    color: white;
+    background-color: $black;
+    border: none;
+    
+  }
+  &:focus {
+    outline: none;
+  }
+}
+
+.btn-dark {
+  background-color: $black;
+  color: white;
+  border-radius: 0;
+  font-family: "poppins", sans-serif;
+  font-size: medium;
+  font-weight: 100;
+  &:hover {
+    color: white;
+    background-color: $orange;
+    border: none;
+    
+    
+  }
+  &:focus {
+    outline: none;
+  }
+}
+input {
+  padding: 0 0.4rem;
+}
+
+.btn-input {
+  border-radius: 0;
+  border: none;
+
+  &:focus {
+    outline: none;
+  }
+}

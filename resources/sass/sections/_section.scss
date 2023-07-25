@@ -1,0 +1,107 @@
+@use "../custom"as *;
+
+h1 {
+	font: 2rem;
+	font-family: "poppins-bold", sans-serif;
+}
+
+.section1 {
+	p {
+		font-family: "poppins-regular", sans-serif;
+		font-size: 14px;
+	}
+	@include media-breakpoint-up(md){
+		margin-top:2rem;
+	}
+}
+
+.section2 {
+	background-color: #f86f03;
+	padding: 1.5rem 0;
+	font-family: "poppins-regular", sans-serif;
+	h4 {
+		color: white;
+	}
+	&--text {
+		color: white;
+		font-size: 14px;
+	}
+	input.input-style {
+		width: 100%;
+	}
+
+	.text-price {
+		color: white;
+		text-align: center;
+
+		.prices:nth-child(2) {
+			// border: 0.1rem solid white;
+			border-left: 0.1rem solid rgba(white, 0.2);
+			border-right: 0.1rem solid rgba(white, 0.2);
+			padding: 0 1rem;
+		}
+		h3 {
+			font-size: 24px;
+		}
+	}
+}
+
+.section3 {
+	background-color: #f7f7f7;
+	.bg-gray {
+		font-family: "poppins-regular";
+		// font-size: 14px;
+	}
+}
+
+.section4 {
+	font-family: "poppins-regular";
+	span {
+		font-weight: bold;
+		font-size: 1.5rem;
+	}
+}
+
+.section5 {
+	font-family: "poppins-regular";
+}
+
+.section6 {
+	font-family: "poppins-bold";
+	p {
+		font-family: "poppins-regular";
+		font-size: small;
+		font-stretch: wider;
+	}
+}
+
+.setion7 {
+	font-family: "poppins-regular";
+}
+
+.section-testimonial{
+	span{
+		font-size: 1rem;
+		margin-left: 1rem;
+	}
+}
+
+.section10 {
+	.accordion-item {
+		.accordion-header {
+			.question {
+				font-family: "poppins-bold";
+			}
+		}
+	}
+}
+
+footer {
+	background-color: #161515;
+	.container{
+		p{
+			font-size: 1rem;
+			
+		}
+	}
+}

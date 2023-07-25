@@ -1,0 +1,34 @@
+.card-service {
+	transition: 1.5s ease-in-out;
+	&:hover {
+		transform: translateY(-5px);
+		// transition: 2s ease-in-out;
+	}
+	&--border {
+		border: 0.1rem solid rgba(gray, 0.2);
+		padding: 1rem;
+		box-shadow: 2px 0 3px rgba(gray, 0.2);
+		border-radius: 0;
+
+		h6 {
+			font-size: 1.2rem;
+		}
+
+		.normal-price {
+			text-decoration-line: line-through;
+			text-decoration-color: rgba(gray, 0.8);
+			font-family: "poppins-bold";
+		}
+
+		.now-price {
+			font-family: "poppins-bold";
+		}
+	}
+
+	&--feature {
+		.pesan {
+			width: 100%;
+			text-align: center;
+		}
+	}
+}
